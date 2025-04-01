@@ -1,0 +1,7 @@
+# Lista de Tarefas
+
+- [ ] Comprar leite
+- [ ] Estudar Django
+- [ ] Fazer exercícios de matemática
+- [ ] Ler um livro
+- [ ] Organizar a casa
