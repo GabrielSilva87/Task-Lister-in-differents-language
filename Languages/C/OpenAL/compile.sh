@@ -1,0 +1,1 @@
+gcc task_list_audio.c -o task_list_audio -lopenal./task_list_audio
