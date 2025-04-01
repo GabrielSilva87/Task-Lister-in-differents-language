@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <ul id="taskList"></ul>
+    <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa...">
+    <button onclick="addTask()">Adicionar</button>
+
+    <script>
+        function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const taskText = taskInput.value;
+            if (taskText) {
+                const li = document.createElement('li');
+                li.textContent = taskText;
+                
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Remover';
+                deleteButton.onclick = function() {
+                    li.remove();
+                };
+
+                li.appendChild(deleteButton);
+                document.getElementById('taskList').appendChild(li);
+                taskInput.value = '';
+            } else {
+                alert('Por favor, insira uma tarefa.');
+            }
+        }
+    </script>
+</body>
+</html>
