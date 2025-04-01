@@ -1,0 +1,17 @@
+app:
+  name: "Todo App"
+  version: "1.0.0"
+  port: 3000
+
+database:
+  host: "localhost"
+  port: 27017
+  name: "todo_db"
+
+logging:
+  level: "info"
+  file: "logs/app.log"
+
+features:
+  enableTaskCompletion: true
+  enableUser Authentication: false
