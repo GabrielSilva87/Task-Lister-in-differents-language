@@ -1,0 +1,43 @@
+tarefas = []
+
+adicionar_tarefa(tarefa):
+    tarefas.append(tarefa)
+    print("Tarefa adicionada:", tarefa)
+
+listar_tarefas():
+    se tarefas == []:
+        print("Nenhuma tarefa na lista.")
+    senão:
+        print("Lista de Tarefas:")
+        para cada tarefa em tarefas:
+            print("-", tarefa)
+
+remover_tarefa(tarefa):
+    se tarefa em tarefas:
+        tarefas.remove(tarefa)
+        print("Tarefa removida:", tarefa)
+    senão:
+        print("Tarefa não encontrada:", tarefa)
+
+enquanto verdadeiro:
+    print("\nEscolha uma opção:")
+    print("1. Adicionar tarefa")
+    print("2. Listar tarefas")
+    print("3. Remover tarefa")
+    print("4. Sair")
+    
+    opcao = input("Opção: ")
+
+    se opcao == "1":
+        tarefa = input("Digite a tarefa a ser adicionada: ")
+        adicionar_tarefa(tarefa)
+    senão se opcao == "2":
+        listar_tarefas()
+    senão se opcao == "3":
+        tarefa = input("Digite a tarefa a ser removida: ")
+        remover_tarefa(tarefa)
+    senão se opcao == "4":
+        print("Saindo...")
+        break
+    senão:
+        print("Opção inválida. Tente novamente.")
