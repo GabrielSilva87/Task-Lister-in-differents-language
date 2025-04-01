@@ -1,0 +1,18 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. GnuCOBOLGTK.
+
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       SOURCE-COMPUTER. GNUCOBOL.
+       OBJECT-COMPUTER. GNUCOBOL.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  GTK-INIT  PIC X(10) VALUE "gtk_init".
+
+       PROCEDURE DIVISION.
+       MAIN-PROCEDURE.
+           CALL "gtk_init" USING GTK-INIT
+           DISPLAY "Hello, GnuCOBOL with GTK!"
+           CALL "gtk_main"
+           STOP RUN.
