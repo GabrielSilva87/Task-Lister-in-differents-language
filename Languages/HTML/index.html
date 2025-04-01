@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listador de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #taskInput {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        #addButton {
+            padding: 10px 15px;
+        }
+        #taskList {
+            margin-top: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .task-item {
+            background: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .removeButton {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Listador de Tarefas</h1>
+    <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
+    <button id="addButton">Adicionar Tarefa</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+        const taskInput = document.getElementById('taskInput');
+        const addButton = document.getElementById('addButton');
+        const taskList = document.getElementById('taskList');
+
+        addButton.addEventListener('click', () => {
+            const taskText = taskInput.value.trim();
+            if (taskText) {
+                const listItem = document.createElement('li');
+                listItem.className = 'task-item';
+                listItem.innerHTML = `
+                    ${taskText}
+                    <button class="removeButton">Remover</button>
+                `;
+                taskList.appendChild(listItem);
+                taskInput.value = '';
+
+                const removeButton = listItem.querySelector('.removeButton');
+                removeButton.addEventListener('click', () => {
+                    taskList.removeChild(listItem);
+                });
+            } else {
+                alert('Por favor, digite uma tarefa válida.');
+            }
+        });
+    </script>
+
+</body>
+</html>
