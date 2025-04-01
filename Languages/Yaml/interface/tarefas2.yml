@@ -1,0 +1,39 @@
+interface:
+  titulo: "Listador de Tarefas"
+  descricao: "Gerencie suas tarefas diárias facilmente."
+  campos:
+    - nome: "titulo"
+      tipo: "texto"
+      placeholder: "Digite o título da tarefa"
+      obrigatorio: true
+
+    - nome: "descricao"
+      tipo: "texto_area"
+      placeholder: "Digite a descrição da tarefa"
+      obrigatorio: false
+
+    - nome: "status"
+      tipo: "seletor"
+      opcoes:
+        - "pendente"
+        - "em andamento"
+        - "concluída"
+      obrigatorio: true
+
+    - nome: "data_vencimento"
+      tipo: "data"
+      placeholder: "Selecione a data de vencimento"
+      obrigatorio: true
+
+  acoes:
+    - nome: "adicionar_tarefa"
+      tipo: "botao"
+      texto: "Adicionar Tarefa"
+
+    - nome: "editar_tarefa"
+      tipo: "botao"
+      texto: "Editar Tarefa"
+
+    - nome: "remover_tarefa"
+      tipo: "botao"
+      texto: "Remover Tarefa"
