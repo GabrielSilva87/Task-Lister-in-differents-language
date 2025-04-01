@@ -1,0 +1,1 @@
+xxd -b arq.bin
