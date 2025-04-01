@@ -1,0 +1,1 @@
+INSERT INTO tarefas (descricao) VALUES ('Minha nova tarefa');
