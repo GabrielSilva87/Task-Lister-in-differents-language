@@ -1,4 +1,4 @@
-(ns normal.clj)
+(ns todo-app.core)
 
 (defn adicionar-tarefa [lista tarefa]
   (conj lista tarefa))
