@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listador de Tarefas</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 5px 0; }
+        input[type="text"] { width: 300px; }
+    </style>
+</head>
+<body>
+    <h1>Listador de Tarefas</h1>
+    <form action="/add" method="POST">
+        <input type="text" name="task" placeholder="Digite uma nova tarefa" required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                {{ task }} <a href="/delete/{{ loop.index0 }}">[Remover]</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
