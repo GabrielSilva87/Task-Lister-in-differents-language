@@ -1,0 +1,5 @@
+CREATE TABLE tarefas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    descricao TEXT NOT NULL,
+    concluida BOOLEAN NOT NULL DEFAULT 0
+);
