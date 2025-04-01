@@ -1,0 +1,1 @@
+SELECT * FROM tarefas WHERE concluida = 1;
