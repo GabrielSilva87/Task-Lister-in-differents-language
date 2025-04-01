@@ -1,0 +1,30 @@
+tarefas:
+  - id: 1
+    titulo: "Comprar mantimentos"
+    descricao: "Comprar frutas, vegetais e laticínios para a semana."
+    status: "pendente"
+    data_vencimento: "2023-10-15"
+
+  - id: 2
+    titulo: "Estudar para a prova de matemática"
+    descricao: "Revisar os tópicos de álgebra e geometria."
+    status: "em andamento"
+    data_vencimento: "2023-10-20"
+
+  - id: 3
+    titulo: "Enviar relatório mensal"
+    descricao: "Compilar dados e enviar o relatório para o gerente."
+    status: "concluída"
+    data_vencimento: "2023-10-10"
+
+  - id: 4
+    titulo: "Marcar consulta médica"
+    descricao: "Agendar consulta com o dentista."
+    status: "pendente"
+    data_vencimento: "2023-10-25"
+
+  - id: 5
+    titulo: "Limpar a casa"
+    descricao: "Fazer uma limpeza geral na casa, incluindo os quartos e a cozinha."
+    status: "pendente"
+    data_vencimento: "2023-10-30"
