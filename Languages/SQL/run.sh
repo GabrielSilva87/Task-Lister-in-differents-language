@@ -1,0 +1,1 @@
+mysql -u myuser877 -p SQL < /language/SQL/tabelist.sql
