@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "sinatra": "2.1.0"
+  }
+}
