@@ -1,0 +1,1 @@
+wget https://download.swift.org/swift-5.7.2-release/ubuntu2204-aarch64/swift-5.7.2-RELEASE/swift-5.7.2-RELEASE-ubuntu22.04-aarch64.tar.gz
