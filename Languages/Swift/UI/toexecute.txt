@@ -1,1 +1,1 @@
-Ctrl+F5
+(Ctrl+F5) or (Cmd+R)
