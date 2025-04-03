@@ -1,0 +1,1 @@
+gfortran -o Fortan listador_tarefas.f90
