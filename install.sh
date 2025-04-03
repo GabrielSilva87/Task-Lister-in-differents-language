@@ -11,3 +11,4 @@ chmod +x linux-install.sh
 sudo ./linux-install.sh
 sudo apt install sbcl
 sudo apt install clisp
+sudo apt install dmd
