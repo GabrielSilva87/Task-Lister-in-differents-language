@@ -51,5 +51,4 @@ function listar_tarefas(tarefas)
     end
 end
 
-% Chama a função principal
 listador_tarefas();
