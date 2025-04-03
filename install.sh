@@ -6,3 +6,6 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt install build-essential
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt install gnucobol
+curl -L -O https://github.com/clojure/brew-install/releases/latest/download/linux-install.sh
+chmod +x linux-install.sh
+sudo ./linux-install.sh
