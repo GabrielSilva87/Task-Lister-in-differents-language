@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "fortran": {
+      "version": ">= 95",
+      "description": "Fortran programming language"
+    },
+    "gtk": {
+      "version": "3.24.0",
+      "description": "GTK+ is a multi-platform toolkit for creating graphical user interfaces."
+    },
+    "gfortran": {
+      "version": ">= 9.0",
+      "description": "GNU Fortran compiler"
+    }
+  },
+  "installation": {
+    "ubuntu": {
+      "commands": [
+        "sudo apt-get update",
+        "sudo apt-get install build-essential",
+        "sudo apt-get install libgtk-3-dev"
+      ]
+    },
+    "fedora": {
+      "commands": [
+        "sudo dnf install gcc-gfortran",
+        "sudo dnf install gtk3-devel"
+      ]
+    },
+    "macos": {
+      "commands": [
+        "brew install gcc",
+        "brew install gtk+3"
+      ]
+    }
+  }
+}
