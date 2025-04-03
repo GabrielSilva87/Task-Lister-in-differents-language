@@ -1,5 +1,5 @@
 function listador_tarefas()
-    tarefas = {};  % Inicializa a lista de tarefas
+    tarefas = {}; 
     while true
         disp('Listador de Tarefas');
         disp('1. Adicionar tarefa');
