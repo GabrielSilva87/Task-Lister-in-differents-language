@@ -18,3 +18,9 @@ sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | ap
 sudo sh -c 'echo "deb [arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main" > /etc/apt/sources.list.d/dart_stable.list'
 sudo apt update
 sudo apt install dart
+sudo apt update
+sudo apt install -y wget gnupg
+wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb
+sudo dpkg -i erlang-solutions_2.0_all.deb
+sudo apt install -y esl-erlang
+sudo apt install -y elixir
