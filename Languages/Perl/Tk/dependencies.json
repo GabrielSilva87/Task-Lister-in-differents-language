@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "perl": {
+      "version": ">=5.10.0",
+      "description": "Linguagem de programação Perl"
+    },
+    "JSON": {
+      "version": ">=2.0",
+      "description": "Módulo para manipulação de JSON em Perl"
+    },
+    "Tk": {
+      "version": ">=804.029",
+      "description": "Módulo para interface gráfica em Perl (opcional, se você usar Tk)"
+    }
+  }
+}
