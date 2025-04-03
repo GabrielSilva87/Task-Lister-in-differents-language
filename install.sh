@@ -5,3 +5,4 @@ wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-mi
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt install build-essential
 sudo dpkg -i packages-microsoft-prod.deb
+sudo apt install gnucobol
