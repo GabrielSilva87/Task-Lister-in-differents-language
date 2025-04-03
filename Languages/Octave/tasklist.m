@@ -11,7 +11,7 @@ function listador_tarefas()
         switch opcao
             case 1
                 descricao = input('Digite a descrição da tarefa: ', 's');
-                tarefas{end + 1} = descricao;  % Adiciona a tarefa
+                tarefas{end + 1} = descricao;  
                 disp('Tarefa adicionada.');
             case 2
                 if isempty(tarefas)
@@ -29,7 +29,7 @@ function listador_tarefas()
                     listar_tarefas(tarefas);
                     indice = input('Digite o número da tarefa a ser removida: ');
                     if indice >= 1 && indice <= length(tarefas)
-                        tarefas(indice) = [];  % Remove a tarefa
+                        tarefas(indice) = [];  
                         disp('Tarefa removida.');
                     else
                         disp('Índice inválido.');
