@@ -1,3 +1,3 @@
 ?- [tasklist].
-?- [tasklistGUI].
+?- [XPCE/tasklistGUI].
 ?- inicializar.
