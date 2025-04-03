@@ -10,3 +10,4 @@ curl -L -O https://github.com/clojure/brew-install/releases/latest/download/linu
 chmod +x linux-install.sh
 sudo ./linux-install.sh
 sudo apt install sbcl
+sudo apt install clisp
