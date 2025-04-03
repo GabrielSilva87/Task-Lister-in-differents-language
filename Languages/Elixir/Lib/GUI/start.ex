@@ -1,1 +1,1 @@
-listador_TarefasGUI.start()
+listador_tarefasGUI.start()
