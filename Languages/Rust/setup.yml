@@ -1,0 +1,17 @@
+setup:
+  description: "Instruções para configurar e executar o projeto de listador de tarefas em Rust."
+  prerequisites:
+    - "Rust (versão 1.60.0 ou superior) deve estar instalado."
+    - "Cargo deve estar disponível no seu sistema."
+  steps:
+    - step: "Clone o repositório."
+      command: "git clone <URL_DO_REPOSITORIO>"
+    - step: "Navegue até o diretório do projeto."
+      command: "cd tasklist"
+    - step: "Compile o projeto."
+      command: "cargo build"
+    - step: "Execute o projeto."
+      command: "cargo run"
+  notes:
+    - "Certifique-se de que o Rust está corretamente instalado executando 'rustc --version'."
+    - "Para instalar o Rust, visite https://www.rust-lang.org/tools/install."
