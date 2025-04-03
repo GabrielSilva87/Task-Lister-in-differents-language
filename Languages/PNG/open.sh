@@ -1,0 +1,1 @@
+xdg-open listador_tarefas.png
