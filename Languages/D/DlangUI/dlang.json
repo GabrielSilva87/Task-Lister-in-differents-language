@@ -1,0 +1,6 @@
+{
+    "name": "task-list-gui",
+    "dependencies": {
+        "dlangui": "~>0.9.0"
+    }
+}
