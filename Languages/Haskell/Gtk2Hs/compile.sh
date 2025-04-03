@@ -1,0 +1,1 @@
+ghc -o Gtk2Hs TaskListGUI.hs
