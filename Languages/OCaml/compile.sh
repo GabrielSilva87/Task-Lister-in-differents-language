@@ -1,2 +1,2 @@
-ocamlc -o OCaml str.cma listador_tarefas.ml
+ocamlc -o OCaml str.cma tasklist.ml
 ./listador_tarefas
