@@ -29,3 +29,6 @@ sudo apt install gfortran
 sudo apt install git
 sudo apt install golang
 go get fyne.io/fyne/v2
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install groovy
