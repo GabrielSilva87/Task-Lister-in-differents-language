@@ -28,3 +28,4 @@ sudo apt install erlang
 sudo apt install gfortran
 sudo apt install git
 sudo apt install golang
+go get fyne.io/fyne/v2
