@@ -27,3 +27,4 @@ sudo apt install -y elixir
 sudo apt install erlang
 sudo apt install gfortran
 sudo apt install git
+sudo apt install golang
