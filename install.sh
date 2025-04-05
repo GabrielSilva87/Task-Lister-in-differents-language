@@ -51,3 +51,5 @@ sudo apt install python3
 sudo add-apt-repository ppa:marutter/rrutter4.0
 sudo apt install r-base
 sudo apt install ruby
+sudo apt install mysql-server
+sudo systemctl start mysql
