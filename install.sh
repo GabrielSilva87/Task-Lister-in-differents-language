@@ -34,3 +34,4 @@ exec bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install groovy
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+sudo apt install openjdk-11-jdk
