@@ -40,3 +40,4 @@ sudo apt install -y nodejs
 wget https://github.com/JetBrains/kotlin/releases/download/v1.7.10/kotlin-compiler-1.7.10.zip
 unzip kotlin-compiler-1.7.10.zip
 sudo apt install lua
+sudo apt install ocaml
