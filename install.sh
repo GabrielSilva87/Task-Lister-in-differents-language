@@ -60,3 +60,5 @@ export PATH=/usr/share/swift/usr/bin:"$PATH"
 source ~/.bashrc
 sudo npm install -g typescript
 sudo npm install react
+sudo apt install snapd
+sudo snap install yq
