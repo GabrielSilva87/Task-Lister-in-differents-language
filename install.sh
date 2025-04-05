@@ -53,3 +53,4 @@ sudo apt install r-base
 sudo apt install ruby
 sudo apt install mysql-server
 sudo systemctl start mysql
+sudo apt install scala
