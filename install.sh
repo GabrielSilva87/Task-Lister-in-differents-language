@@ -58,3 +58,5 @@ wget https://swift.org/builds/swift-5.7.1-release/ubuntu2004/swift-5.7.1-RELEASE
 sudo mv swift-5.7.1-RELEASE-ubuntu20.04 /usr/share/swift
 export PATH=/usr/share/swift/usr/bin:"$PATH"
 source ~/.bashrc
+sudo npm install -g typescript
+sudo npm install react
