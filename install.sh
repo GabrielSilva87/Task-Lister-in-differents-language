@@ -43,3 +43,4 @@ sudo apt install lua
 sudo apt install ocaml
 sudo apt install gcc gobjc gnustep-devel
 sudo apt install octave
+sudo apt install php
