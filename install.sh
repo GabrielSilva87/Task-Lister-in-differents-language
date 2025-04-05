@@ -50,3 +50,4 @@ sudo apt install perl
 sudo apt install python3
 sudo add-apt-repository ppa:marutter/rrutter4.0
 sudo apt install r-base
+sudo apt install ruby
