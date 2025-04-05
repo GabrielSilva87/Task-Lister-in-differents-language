@@ -1,7 +1,7 @@
 
 <p align="center">
   <strong>
-     <h1> Task Lister in differents languages </h1>
+     <h3> Task Lister in differents languages </h3>
   </strong>
 
 <p align="center">
