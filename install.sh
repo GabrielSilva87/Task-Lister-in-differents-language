@@ -33,3 +33,4 @@ curl -s "https://get.sdkman.io" | bash
 exec bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install groovy
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
