@@ -47,3 +47,4 @@ sudo apt install php
 sudo apt install fpc
 sudo apt install swi-prolog
 sudo apt install perl
+sudo apt install python3
