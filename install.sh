@@ -45,3 +45,4 @@ sudo apt install gcc gobjc gnustep-devel
 sudo apt install octave
 sudo apt install php
 sudo apt install fpc
+sudo apt install perl
