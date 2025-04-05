@@ -42,3 +42,4 @@ unzip kotlin-compiler-1.7.10.zip
 sudo apt install lua
 sudo apt install ocaml
 sudo apt install gcc gobjc gnustep-devel
+sudo apt install octave
