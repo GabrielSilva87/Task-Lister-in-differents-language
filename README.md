@@ -21,3 +21,6 @@
       In linux:
       sh install.sh
    ```
+  ### 3. Go to the chosen language
+   ```
+      cd language/your language
