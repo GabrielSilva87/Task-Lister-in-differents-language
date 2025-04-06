@@ -5,5 +5,5 @@
 
    - *If you find any errors in the compilation or code, report our issues.*
 ## To clone the repository ⌨
-   ``` https://github.com/GabrielSilva87/Task-Lister-in-differents-language
+   ``` git clone https://github.com/GabrielSilva87/Task-Lister-in-differents-language
    ```
