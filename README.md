@@ -13,7 +13,6 @@
    ```
   ### 2. Install all dependencies
 
-  *In termux:*
    ```
       In termux: 
       sh installtermux.sh  
