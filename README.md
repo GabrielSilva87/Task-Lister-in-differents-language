@@ -15,5 +15,5 @@
 
   *In termux:*
    ```
-         
+      sh installtermux.sh  
    ```
