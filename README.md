@@ -12,6 +12,7 @@
      git clone https://github.com/GabrielSilva87/Task-Lister-in-differents-language
    ```
   ### 2. Install all dependencies
+
   *In termux:*
    ```
          
