@@ -2,4 +2,4 @@
 ```
  - This is a task lister, but compiles into various languages programming
 ```
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Arial&size=20&duration=10000&pause=1000&color=F72971&width=435&lines=To)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Arial&size=20&duration=10000&pause=1000&color=F72971&width=435&lines=aaaaaaaaaaaaaaaaaaa)](https://git.io/typing-svg)
