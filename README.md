@@ -4,7 +4,7 @@
    - *This software is a task lister, created to be compiled in various programming languages  among others.*
 
    - *If you find any errors in the compilation or code, report our issues.*
-## To clone the repository ⌨
+## To compile ⌨
    ``` 
      git clone https://github.com/GabrielSilva87/Task-Lister-in-differents-language
    ```
