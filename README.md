@@ -23,4 +23,7 @@
    ```
   ### 3. Go to the chosen language
    ```
-      cd language/your language
+      cd language/C++ (your language)
+      clang 
+    
+   ```
