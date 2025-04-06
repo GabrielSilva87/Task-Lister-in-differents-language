@@ -4,4 +4,4 @@
    - *This software is a task lister, created to be compiled in various programming languages  among others.*
 
    - *If you find any errors in the compilation or code, report our issues.*
-## To compile ⌨
+## To clone the repository ⌨
