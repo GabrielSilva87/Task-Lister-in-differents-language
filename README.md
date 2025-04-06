@@ -24,6 +24,6 @@
   ### 3. Go to the chosen language
    ```
       cd language/C++ (your language)
-      clang 
+      clang main.cpp
     
    ```
